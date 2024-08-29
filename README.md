@@ -1,3 +1,17 @@
+### Task 
+There is a page of a school website. During creation, the many-to-one relationship type was incorrectly chosen. And now a student has only one teacher, and to add a second one, the student needs to be added to the database again.
+
+It is necessary to change the models and make a many-to-many relationship between Teachers and Students. This will solve the problems of the current architecture.
+
+### Objectives:
+1. Change the relationship between the Student and Teacher models from Foreign key to Many to many.
+2. Fix the template of the student list taking into account the changes in the models.
+
+
+
+
+
+
 # Миграции
 
 ## Задание
